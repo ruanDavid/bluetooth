@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sr.ui.Setup.User.UserActivity"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.sr.ui.fragment.Fragment_Lable"
+        android:id="@+id/user_fragmentLable"/>
+
+    <Button
+        android:text="Timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/User_timer"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:text="Back light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_light"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:text="Key tone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/key_tone"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:text="Language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/language"
+        android:layout_weight="0.10" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_back"
+        android:layout_weight="0.10" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_timer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.sr.ui.Setup.User.TimerActivity">
+
+    <fragment
+        android:id="@+id/timer_fragmentLable"
+        android:name="com.example.sr.ui.fragment.Fragment_Lable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Timer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/timer_con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="ON_Off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ON_OFF" />
+
+    <Button
+        android:text="Reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer_back" />
+</LinearLayout>

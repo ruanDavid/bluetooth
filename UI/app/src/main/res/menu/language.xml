@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/English"
+        android:title="English"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/simple_ch"
+        android:title="简体中文"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/com_ch"
+        android:title="繁体中文"
+        android:visible="true"
+        android:showAsAction="ifRoom|withText"/>
+</menu>

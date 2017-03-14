@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UI</string>
+    <string name="INC_ABS">INC</string>
+    <string name="MM_INCH">MM</string>
+    <string name="SET_CLEAR">Set</string>
+    <string name="title_activity_user">UserActivity</string>
+</resources>

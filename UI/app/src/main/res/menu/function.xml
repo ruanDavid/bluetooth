@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Bolt_Hole"
+        android:title="Bolt Hole"
+        android:visible="true" />
+    <item
+        android:id="@+id/Linear_drilling"
+        android:title="Linear drilling"
+        android:visible="true" />
+    <item
+        android:id="@+id/Grid_drilling"
+        android:title="Grid drilling"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/Go_to"
+        android:title="Go to"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/Calculator"
+        android:title="Calculator"
+        android:visible="true"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

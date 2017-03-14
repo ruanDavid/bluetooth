@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/INC_ABS"
+        android:title="INC/ABS" />
+    <item
+        android:id="@+id/MM_INCH"
+        android:title="MM/INCH" />
+    <item
+        android:id="@+id/Set_Clear"
+        android:title="Set/Clear" />
+    <item
+        android:id="@+id/DEG_DMS"
+        android:title="DEG/DMS" />
+</menu>

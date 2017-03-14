@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sr.ui.Setup.SetUp"
+    android:weightSum="1">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.sr.ui.fragment.Fragment_Lable"
+        android:id="@+id/Setup_fragmentLable"/>
+
+    <Button
+        android:text="User"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/user"
+        android:layout_weight="0.25" />
+
+    <Button
+        android:text="Installer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/installer"
+        android:layout_weight="0.21" />
+
+    <Button
+        android:text="Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:layout_weight="0.20" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_weight="0.17" />
+
+</LinearLayout>

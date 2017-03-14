@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mechineType">
+        <item>Milling</item>
+        <item>Lathe</item>
+    </string-array>
+    <string-array name="numberOfAxes">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="defaultUnits">
+        <item>mm</item>
+        <item>inch</item>
+    </string-array>
+    <string-array name="YesorNo">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="probe">
+        <item>No</item>
+        <item>5V</item>
+        <item>0V</item>
+    </string-array>
+    <string-array name="combineAxes">
+        <item>None</item>
+        <item>+axis1</item>
+        <item>+axis2</item>
+        <item>+axis3</item>
+        <item>+axis4</item>
+        <item>-axis1</item>
+        <item>-axis2</item>
+        <item>-axis3</item>
+        <item>-axis4</item>
+    </string-array>
+    <string-array name="feedbackAlarm">
+        <item>None</item>
+        <item>1 TTL</item>
+        <item>0 TTL</item>
+    </string-array>
+    <string-array name="axisType">
+        <item>Linear</item>
+        <item>Rotary</item>
+    </string-array>
+    <string-array name="encoderSignals">
+        <item>TTL</item>
+        <item>1 Vpp</item>
+    </string-array>
+    <string-array name="TTL_multiply">
+        <item>4</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="SIN_multiply">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>25</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="type">
+        <item>None</item>
+        <item>Normal</item>
+        <item>Coded</item>
+    </string-array>
+    <string-array name="signalp">
+        <item>20</item>
+        <item>40</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="compensation">
+        <item>Linear</item>
+        <item>None</item>
+        <item>Multi Point</item>
+    </string-array>
+</resources>

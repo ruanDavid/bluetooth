@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_installer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sr.ui.Setup.Installer.InstallerActivity"
+    android:weightSum="1">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.sr.ui.fragment.Fragment_Lable"
+        android:id="@+id/installer_fragmentLable"/>
+
+    <Button
+        android:text="DRO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DRO"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:text="Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/feedback"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:text="Comp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comp"
+        android:layout_weight="0.15" />
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/installer_back"
+        android:layout_weight="0.15" />
+</LinearLayout>
